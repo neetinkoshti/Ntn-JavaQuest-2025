@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f159a3df-699f-413a-ad02-ee5ffed7bdb5" name="Changes" comment="New Java Project to work your skills">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ntn/com/javaconcepts/multithreading/PrintEvenOddNumbersUsingThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="f159a3df-699f-413a-ad02-ee5ffed7bdb5" name="Changes" comment="JavaConcepts: Multitheading : Print Even Odd Numbers using thread">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ntn/com/javaconcepts/immutable/CustomImmutableClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntn/com/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +45,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CustomImmutableClass.executor": "Run",
     "Application.PrintEvenOddNumbersUsingThread.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CustomImmutableClass">
+    <configuration name="CustomImmutableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ntn.com.javaconcepts.immutable.CustomImmutableClass" />
+      <module name="ntn-JavaLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ntn.com.javaconcepts.immutable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrintEvenOddNumbersUsingThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ntn.com.javaconcepts.multithreading.PrintEvenOddNumbersUsingThread" />
       <module name="ntn-JavaLab" />
@@ -69,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomImmutableClass" />
         <item itemvalue="Application.PrintEvenOddNumbersUsingThread" />
       </list>
     </recent_temporary>
@@ -90,11 +103,29 @@
       <option name="project" value="LOCAL" />
       <updated>1742859478260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project related files">
+      <option name="closed" value="true" />
+      <created>1742860712238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742860712238</updated>
+    </task>
+    <task id="LOCAL-00003" summary="JavaConcepts: Multitheading : Print Even Odd Numbers using thread">
+      <option name="closed" value="true" />
+      <created>1742860802537</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742860802537</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Java Project to work your skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Java Project to work your skills" />
+    <MESSAGE value="project related files" />
+    <MESSAGE value="JavaConcepts: Multitheading : Print Even Odd Numbers using thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaConcepts: Multitheading : Print Even Odd Numbers using thread" />
   </component>
 </project>
