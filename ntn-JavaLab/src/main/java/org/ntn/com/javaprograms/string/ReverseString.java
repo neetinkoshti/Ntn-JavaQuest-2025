@@ -1,9 +1,6 @@
 package org.ntn.com.javaprograms.string;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class ReverseString {
@@ -23,7 +20,34 @@ public class ReverseString {
 
         reverseStringUsingCollectionsReverse(str);
 
+        reverseStringUsingStringJoiner(str);
 
+        reverseStringUsingDeque(str);
+
+    }
+
+    private static void reverseStringUsingDeque(String str) {
+
+        Deque<String> deque = new ArrayDeque<>();
+        for(int i = 0 ;i<= str.length()-1 ;i++){
+            deque.push(String.valueOf(str.charAt(i)));
+        }
+        StringBuilder reverseString = new StringBuilder();
+
+        while(!deque.isEmpty()){
+            reverseString.append(deque.pop());
+        }
+
+        System.out.println("by Deque: "+reverseString);
+
+    }
+
+    private static void reverseStringUsingStringJoiner(String str) {
+        StringJoiner stringJoiner = new StringJoiner("");
+        for(int i = str.length()-1; i >= 0 ; i--){
+            stringJoiner.add(String.valueOf(str.charAt(i)));
+        }
+        System.out.println("by String joiner: "+stringJoiner);
     }
 
     private static void reverseStringUsingCollectionsReverse(String str) {
